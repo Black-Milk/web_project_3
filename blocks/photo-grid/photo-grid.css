@@ -1,0 +1,23 @@
+@import url(./__image/photo-grid__image.css);
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+    display: grid;
+    width: calc(100% - 2 * 48px);
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: calc(100% - 2 * 24px);
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        width: calc(100% - 2 * 16px);
+    }
+
+}

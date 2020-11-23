@@ -1,0 +1,7 @@
+.intro__list-item {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    color: #FFFFFF;
+}
