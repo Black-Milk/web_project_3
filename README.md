@@ -24,11 +24,8 @@ This is a project about traveling across the US. We discuss the following areas:
 
 **Suggestions for improvement**
 
-1. Use decimals for line-height
-2. Improve responsive layout for the interval `425px-768px`
-3. Remove stray font properties (if any)
-4. Travel to the destinations mentioned on the page 😉
-
+1. Add some fade-in fade-out link animations 
+2. Travel to the destinations mentioned on the page 😉
 
 **BEM Structure**
 
@@ -57,6 +54,8 @@ blocks
 │   │   ├── _active
 │   │   │   └── header__lang-link_active.css
 │   │   └── header__lang-link.css
+│   ├── __link-item
+│   │   └── header__link-item.css
 │   ├── __links
 │   │   └── header__links.css
 │   └── header.css
@@ -119,6 +118,7 @@ blocks
 │   │   └── place__website.css
 │   └── place.css
 └── places
+    ├── __cards
+    │   └── places__cards.css
     └── places.css
-
 ```
