@@ -26,7 +26,20 @@
     margin-bottom: 0;
 }
 
+
 @media screen and (max-width: 640px) {
+    .place {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "title" "image" "summary" "website";
+        grid-gap: 32px;
+        margin-bottom: 48px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
     .place {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
