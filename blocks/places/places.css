@@ -1,9 +1,12 @@
+@import url(./__cards/places__cards.css);
+
+
 .places {
     margin: 92px 0 0;
     padding: 0;
     width: calc(100% - 2 * 148px);
     box-sizing: border-box;
-    list-style-type: none;
+
 
 }
 
