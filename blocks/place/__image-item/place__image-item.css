@@ -21,6 +21,13 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .place__image-item {
+        min-width: 330px;
+        min-height: 320px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .place__image-item {

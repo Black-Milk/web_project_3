@@ -12,6 +12,7 @@
     background-image: url("../../../images/__background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     position: relative;
 }
 
@@ -44,6 +45,15 @@
     .cover__link {
         min-height: 480px;
         min-width: 768px;
+        margin-top: 89px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .cover__link {
+        min-height: 400px;
+        min-width: 640px;
         margin-top: 89px;
     }
 }
