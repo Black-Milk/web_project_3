@@ -32,9 +32,12 @@ This is a project about traveling across the US. We discuss the following areas:
 1. Fixed position of footer in `index.html`
 
 
-**Notes to Review**
+**Notes to Reviewer**
 1. I'm still having trouble getting the cover image to behave. I added some re-sizing options for 640px.
 2. I do not see any instances of horizontal scrolling for resolutions 321 - 767, 769 - 1023, 1025 - 1183; I'm using google dev tools to verify.
+
+**Resources**
+1. https://www.bitdegree.org/learn/responsive-media
 
 **BEM Structure**
 
