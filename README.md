@@ -38,6 +38,7 @@ This is a project about traveling across the US. We discuss the following areas:
 
 **Resources**
 1. https://www.bitdegree.org/learn/responsive-media
+2. [Dynamically Resize Elements](https://levelup.gitconnected.com/dynamic-element-scaling-in-css-7e35ed9a3914)
 
 **BEM Structure**
 

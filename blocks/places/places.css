@@ -23,6 +23,15 @@
     }
 }
 
+@media screen and (max-width: 350px) {
+    .places {
+        width: calc(100% - 2*16px);
+        height: 100%;
+        margin-top: 65px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .places {
         width: 100%;

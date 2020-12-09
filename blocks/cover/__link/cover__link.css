@@ -1,8 +1,8 @@
 .cover__link {
     margin-top: 92px;
     min-height: 740px;
-    min-width: 1184px;
     width: 100%;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@
 @media screen and (max-width: 1024px) {
     .cover__link {
         min-height: 640px;
-        min-width: 1024px;
+
     }
 }
 
@@ -44,7 +44,6 @@
 @media screen and (max-width: 768px) {
     .cover__link {
         min-height: 480px;
-        min-width: 768px;
         margin-top: 89px;
     }
 }
@@ -53,16 +52,14 @@
 @media screen and (max-width: 640px) {
     .cover__link {
         min-height: 400px;
-        min-width: 640px;
         margin-top: 89px;
     }
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
     .cover__link {
         min-height: 200px;
-        min-width: 320px;
         margin-top: 65px;
     }
 }
