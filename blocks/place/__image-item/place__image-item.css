@@ -14,7 +14,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .place__image-item {
         min-width: 340px;
         min-height: 340px;
