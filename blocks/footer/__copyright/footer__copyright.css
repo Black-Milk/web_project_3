@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
     .footer__copyright {
         flex-direction: column;
     }
