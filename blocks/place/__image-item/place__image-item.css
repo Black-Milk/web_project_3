@@ -22,26 +22,17 @@
 }
 
 
-@media screen and (max-device-width: 840px) {
+@media screen and (max-device-width: 890px) {
     .place__image-item {
         min-width: 340px;
         min-height: 340px;
     }
 }
 
-
-/*@media screen and (max-width: 1024px) {*/
-/*    .place__image-item {*/
-/*        min-width: 440px;*/
-/*        min-height: 440px;*/
-/*    }*/
-/*}*/
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
     .place__image-item {
-        min-height: 315px;
-        min-width: 315px;
+        min-height: 310px;
+        min-width: 310px;
     }
 }
 
