@@ -26,6 +26,13 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 800px) {
+    .place {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
 
 @media screen and (max-width: 680px) {
     .place {
